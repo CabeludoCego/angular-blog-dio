@@ -1,0 +1,21 @@
+.page_title_container {
+	color: white;
+
+}
+
+.page_title_container > h1 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 80px;
+	font-weight: 200;
+	font-family: fantasy;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.page_title_container > hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
