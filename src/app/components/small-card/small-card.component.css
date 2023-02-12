@@ -1,0 +1,34 @@
+a {
+	text-decoration: none;
+}
+
+.small-card_container {
+	width: 600px;
+	margin-bottom: 16px;
+}
+
+.small-card_container_content {
+	display: flex;
+	flex-direction: row;
+}
+
+.small-card_separator {
+	margin-top: 10px;
+}
+
+.small-card_photo {
+	display: flex;
+	flex-direction: row;
+}
+.small-card_photo > img {
+	width: 200px;
+	min-width: 120px;
+	margin-right: 16px;
+}
+
+.small-card_title {
+	/* font-size: smaller; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
