@@ -2,15 +2,15 @@
 	<div class="small-card_container_content">
 		<div class="small-card_photo">
 			<img
-				src="../../../assets/imgs/vox2.jpg"
+				src="{{cardPhoto}}"
 				alt="img"
 				srcset=""
 			>
 		</div>
 	
 		<div  class="small-card_title">
-			<h3> <a href="#"> 
-				Vox Machina: Season 2 traz mais da gangue em seu auge, com 85% de aprovação no Rotten Onions
+			<h3> <a [routerLink]="['content', Id]"> 
+				{{cardDescription}}
 			</a> </h3>
 		</div>
 	

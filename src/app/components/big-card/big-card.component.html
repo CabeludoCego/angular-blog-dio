@@ -2,7 +2,7 @@
 	
 	<div class="big-card_photo">
 		<img
-			src="../../../assets/imgs/invincible.jpg"
+			src= "{{ cardPhoto }}"
 			alt="img"
 			srcset=""
 		>
@@ -10,19 +10,19 @@
 
 	<div class="big-card_title">
 		<h1>
-			<a href="#"> Invincible: Season 2 anunciada </a>
+			<a [routerLink]="['content', Id]"> {{ cardTitle }} </a>
 		</h1>
 	</div>
 
 	<div class="big-card_content">
 
 		<p> 
-			<a href="#">
+			<a [routerLink]="['content', Id]">
 				Previsão de estreia na segunda metade de 2023 
 			</a>
 		</p>
 		
-		<p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam beatae optio rerum sapiente dicta accusamus, molestias cupiditate! Asperiores praesentium nemo dolores aperiam, dolorum nihil atque voluptates eos iusto! Quaerat iste facere possimus. Assumenda illum, pariatur ratione corrupti aliquam doloremque atque. </p>
+		<p> {{ cardDescription }} </p>
 	
 	</div>
 

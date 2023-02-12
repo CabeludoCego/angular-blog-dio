@@ -1,0 +1,6 @@
+@media screen and (max-width: 500px){
+	
+	.page_title_container > h1 {
+		font-size: 18px;
+	}
+}
